@@ -14,7 +14,7 @@ O episódio "Blink" é considerado um dos melhores da série Doctor Who e é par
 
 ## Como Visitar a Página
 
-Para visitar a página de tributo, [clique aqui](https://seu-link-para-a-pagina). Nela, você encontrará informações sobre a série, detalhes sobre o episódio "Blink", imagens e muito mais. Esperamos que você aproveite sua visita!
+Para visitar a página de tributo, [clique aqui](https://doctor-who-tribute.vercel.app/). Nela, você encontrará informações sobre a série, detalhes sobre o episódio "Blink", imagens e muito mais. Esperamos que você aproveite sua visita!
 
 Se você é um fã de Doctor Who ou dos Anjos Lamentadores, esta página de tributo é para você. Aproveite o tempo para explorar a história e os mistérios da série, bem como os momentos memoráveis dos Anjos Lamentadores.
 
