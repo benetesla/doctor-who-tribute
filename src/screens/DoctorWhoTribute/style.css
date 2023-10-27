@@ -1,0 +1,208 @@
+.doctor-who-tribute { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.doctor-who-tribute .overlap-group-wrapper {
+  height: 800px;
+  width: 1280px;
+}
+
+.doctor-who-tribute .overlap-group {
+  background-image: url("../../assets/desktop-wallpaper-doctor-who-dr-who.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.doctor-who-tribute .img {
+  height: 600px;
+  width: 1220px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.doctor-who-tribute .player {
+  -webkit-backdrop-filter: blur(128px) brightness(100%);
+  backdrop-filter: blur(128px) brightness(100%);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.3) 100%
+    )
+    1;
+  border-radius: 32px;
+  box-shadow: 0 0 0 1.5px #ffffff;
+  height: 465px;
+  left: 149px;
+  overflow: hidden;
+  position: absolute;
+  top: 130px;
+  width: 1049px;
+}
+
+.doctor-who-tribute .buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 724px;
+  position: absolute;
+  top: 87px;
+  
+}
+
+.doctor-who-tribute .go-to-series {
+  align-items: center;
+  background-blend-mode: overlay;
+  background-color: var(--highlight);
+  border-radius: 18px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: center;
+  padding: 18px 40px;
+  position: relative;
+  width: 251px;
+}
+
+.doctor-who-tribute .text-wrapper {
+  color: var(--white);
+  font-family: "Abhaya Libre SemiBold-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 22px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.doctor-who-tribute .play-from-beginning {
+  align-items: center;
+  background-blend-mode: overlay;
+  background-color: var(--highlight);
+  border-radius: 18px;
+  display: inline-flex;
+  gap: 12px;
+  left: 735px;
+  padding: 18px 32px 18px 40px;
+  position: absolute;
+  top: 230px;
+}
+
+.doctor-who-tribute .icon {
+  height: 16px;
+  position: relative;
+  width: 15px;
+}
+
+.doctor-who-tribute .os-weeping-angels-ou {
+  background-blend-mode: overlay;
+  color: var(--vibrant-text);
+  font-family: "ABeeZee", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 280px;
+  letter-spacing: 0.07px;
+  line-height: 22px;
+  position: absolute;
+  top: 78px;
+  width: 411px;
+}
+
+.doctor-who-tribute .span {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.doctor-who-tribute .text-wrapper-2 {
+  color: #ffffff;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.doctor-who-tribute .tabs {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  left: 486px;
+  position: absolute;
+  top: 24px;
+}
+
+.doctor-who-tribute .info {
+  align-items: center;
+  background-blend-mode: overlay;
+  background-color: var(--highlight);
+  border-radius: 99px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.doctor-who-tribute .div {
+  color: var(--white);
+  font-family: "ABeeZee", Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.doctor-who-tribute .close {
+  background-blend-mode: overlay;
+  height: 44px;
+  left: 24px;
+  position: absolute;
+  top: 24px;
+  width: 44px;
+}
+
+.doctor-who-tribute .download {
+  height: 161px;
+  left: 13px;
+  object-fit: cover;
+  position: absolute;
+  top: 127px;
+  width: 223px;
+}
+
+.buttons:hover {
+  background-color:rgb(193, 179, 245);
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.play-from-beginning:hover {
+  background-color:rgb(193, 179, 245);
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+}	
+.info:hover {
+  background-color:rgb(193, 179, 245);
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+}
+

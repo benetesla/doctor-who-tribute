@@ -1,0 +1,1 @@
+export { DoctorWhoTribute } from "./DoctorWhoTribute";
